@@ -7,7 +7,6 @@ import java.util.List;
 public class CarServiceImpl implements Service<Car> {
     @Override
     public void createTable() {
-
     }
 
     @Override

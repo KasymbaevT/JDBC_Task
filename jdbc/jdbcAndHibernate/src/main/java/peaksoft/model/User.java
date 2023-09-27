@@ -15,15 +15,16 @@ public class User {
 
     @Column
     private Byte age;
-    private long carId;
+    private Long carId;
 
     public User() {
     }
 
-    public User(String name, String lastName, Byte age, long carId) {
+    public User(String name, String lastName, Byte age, Long carId) {
         this.name = name;
         this.lastName = lastName;
         this.age = age;
+        this.carId = carId;
     }
 
     public Long getId() {
@@ -58,11 +59,11 @@ public class User {
         this.age = age;
     }
 
-    public long getCarId() {
+    public Long getCarId() {
         return carId;
     }
 
-    public void setCarId(long carId) {
+    public void setCarId(Long carId) {
         this.carId = carId;
     }
 }
